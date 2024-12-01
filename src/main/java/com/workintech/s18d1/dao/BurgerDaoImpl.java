@@ -98,6 +98,7 @@ public class BurgerDaoImpl implements BurgerDao{
         else{
             entityManager.remove(deletedBurger);
             return deletedBurger;
+
         }
     }
 }
