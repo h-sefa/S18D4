@@ -58,6 +58,7 @@ public class ResultAnalyzer implements TestWatcher, AfterAllCallback{
 
         String userId = "186506";
 
+
         JSONObject json = new JSONObject();
         json.put("score", score);
         json.put("taskId", taskId);
